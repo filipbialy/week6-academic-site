@@ -2,7 +2,7 @@
 
 FILIP BIAŁY
 
-Lecturer in Digital Business and AI at Liverpool Business School, Liverpool John Moores University.
+Lecturer at the Open Institute of Technology (OPIT), teaching web development, ICT and the ethics of artificial intelligence.
 
 About me
 
@@ -12,10 +12,9 @@ For the past decade I have researched the politics of digital technologies. My c
 
 I have held visiting fellowships at the London School of Economics, the University of Cambridge and the Humboldt Institute for Internet and Society in Berlin. I have researched and taught in the United Kingdom, Poland, Germany, Malta and China, and I regularly comment on technology for the media.
 
-Current roles
+Current role
 
-- Lecturer in Digital Business and AI, Liverpool Business School, Liverpool John Moores University
-- Lecturer in web development and ICT, Open Institute of Technology (OPIT)
+- Lecturer, Open Institute of Technology (OPIT)
 
 Previous positions
 
@@ -31,6 +30,4 @@ Education
 
 Contact
 
-Liverpool Business School
-Liverpool John Moores University
-Redmonds Building, Liverpool
+Students can contact me through the OPIT learning platform.

@@ -1,6 +1,6 @@
 TEACHING
 
-I teach at the meeting point of technology, business and ethics, for students with and without a technical background.
+I teach web development, ICT fundamentals and the ethics of computing at the Open Institute of Technology (OPIT).
 
 Approach
 
@@ -8,17 +8,7 @@ I focus on architecture before tools. Languages and frameworks change quickly, a
 
 I also encourage students to keep doing their own thinking. AI tools can support learning, but they should not replace it.
 
-Liverpool Business School
-
-Digital Business and AI
-
-Teaching on how digital technologies and artificial intelligence change the way organisations work, compete and make decisions.
-
-Personal tutoring
-
-Weekly drop-in hours for my personal tutees in the Redmonds Building, with online meetings by arrangement.
-
-Open Institute of Technology
+Courses
 
 Web Development
 

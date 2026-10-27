@@ -43,4 +43,4 @@ These are deliberate. They are the problems the following sessions solve.
 
 - **Publications:** check author order, titles and status for each entry, and add earlier published work with full references and links.
 - **Portrait:** `images/portrait.svg` is a placeholder. Replace it with a real photo (for example `portrait.jpg`) and update the `src` in each checkpoint from 01 onwards.
-- **Contact:** add an email address or a link to the staff profile on the Bio page if wanted.
+- **Contact:** the Bio page points students to the OPIT learning platform. Add an email address if wanted.
