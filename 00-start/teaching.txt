@@ -1,0 +1,39 @@
+TEACHING
+
+I teach at the meeting point of technology, business and ethics, for students with and without a technical background.
+
+Approach
+
+I focus on architecture before tools. Languages and frameworks change quickly, and AI assistants can now write much of the code. What lasts is understanding how systems fit together and being able to judge whether a solution is a good one.
+
+I also encourage students to keep doing their own thinking. AI tools can support learning, but they should not replace it.
+
+Liverpool Business School
+
+Digital Business and AI
+
+Teaching on how digital technologies and artificial intelligence change the way organisations work, compete and make decisions.
+
+Personal tutoring
+
+Weekly drop-in hours for my personal tutees in the Redmonds Building, with online meetings by arrangement.
+
+Open Institute of Technology
+
+Web Development
+
+COMP-2002
+
+From HTML and CSS to JavaScript, server-side development, databases and frameworks, built around one growing website.
+
+ICT Fundamentals
+
+COMP-1005
+
+How computers, networks and software work, followed by programming in Python and version control with Git.
+
+Ethics of Computer Science and AI
+
+COMP-5011
+
+The ethical and political questions raised by computing and artificial intelligence, from data and privacy to power and accountability.

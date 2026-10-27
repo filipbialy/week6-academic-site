@@ -1,0 +1,101 @@
+/* ==========================================================
+   Checkpoint 02: design tokens and typography
+   ========================================================== */
+
+/* 1. Design tokens: every colour, font and spacing value
+      is defined once here and reused everywhere else. */
+:root {
+  /* Colours */
+  --color-bg: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-text: #1f2933;
+  --color-muted: #52606d;
+  --color-accent: #1d4e89;
+  --color-accent-soft: #e3ecf7;
+  --color-border: #d9dee4;
+
+  /* Fonts */
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-heading: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+
+  /* Spacing scale */
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 4rem;
+
+  /* Other */
+  --radius: 0.5rem;
+}
+
+/* 2. A sensible starting point */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* 3. Typography */
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-block: 0 var(--space-m);
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-block: var(--space-l) var(--space-s);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-block: 0 var(--space-s);
+}
+
+p {
+  margin-block: 0 var(--space-m);
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: var(--color-muted);
+}
+
+a {
+  color: var(--color-accent);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+address {
+  font-style: normal;
+}
+
+cite {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,113 @@
+/* ==========================================================
+   Stretch solutions (optional, not part of any checkpoint)
+   Loaded after style.css, so the main stylesheet is unchanged.
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   S1. Filter publications with CSS only, using :has()
+       "If main contains an unchecked Books box, hide the
+       Books section." Written with native CSS nesting.
+   ---------------------------------------------------------- */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-m);
+  margin: 0 0 var(--space-l);
+  padding: var(--space-m);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+
+  & legend {
+    padding-inline: var(--space-xs);
+    font-weight: 600;
+  }
+
+  & label {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    cursor: pointer;
+  }
+
+  & input {
+    accent-color: var(--color-accent);
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+
+main {
+  &:has(#show-books:not(:checked)) [data-type="books"],
+  &:has(#show-articles:not(:checked)) [data-type="articles"],
+  &:has(#show-reports:not(:checked)) [data-type="reports"] {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------------------
+   S2. Container queries: a card changes its own layout
+       based on the space the card has, not the screen width.
+   ---------------------------------------------------------- */
+.card {
+  container-type: inline-size;
+}
+
+@container (min-width: 22rem) {
+  .card .course-code {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-s);
+    background-color: var(--color-accent-soft);
+    border-radius: var(--radius);
+  }
+
+  .card h2,
+  .card h3 {
+    font-size: 1.4rem;
+  }
+}
+
+/* ----------------------------------------------------------
+   S3. Cross-document view transitions: a smooth fade between
+       pages in browsers that support it. Other browsers simply
+       ignore this rule (progressive enhancement).
+   ---------------------------------------------------------- */
+@view-transition {
+  navigation: auto;
+}
+
+/* Keep the header still while the content changes */
+header {
+  view-transition-name: site-header;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
+/* ----------------------------------------------------------
+   S4. Print stylesheet: hide navigation, use black text,
+       show where links go.
+   ---------------------------------------------------------- */
+@media print {
+  nav,
+  .skip-link,
+  .filter {
+    display: none;
+  }
+
+  body {
+    background: none;
+    color: #000000;
+  }
+
+  .card {
+    border-color: #999999;
+    break-inside: avoid;
+  }
+
+  main a[href^="http"]::after {
+    content: " (" attr(href) ")";
+  }
+}

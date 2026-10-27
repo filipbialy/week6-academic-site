@@ -1,0 +1,31 @@
+RESEARCH
+
+My research looks at the politics of digital technologies: who shapes them, who benefits from them, and how they could be governed differently.
+
+Digital capitalism
+
+How digital platforms and artificial intelligence reshape economic and political power, and what ethical, political and ideological resources we have to challenge them. This is the subject of my book in preparation.
+
+AI literacy
+
+What it means to understand artificial intelligence, and whose interests AI literacy programmes serve. My current work examines AI literacy in the Global South, between digital upskilling and technocolonialism.
+
+Generative AI in higher education
+
+How universities respond to generative AI. With colleagues, I have mapped the policies of UK higher education institutions and found that most frame AI as a problem of academic misconduct rather than of teaching and learning.
+
+Data governance
+
+How researchers can responsibly link survey data with social media data. This work develops a governance framework that balances research value against the risk of identifying participants.
+
+Data-driven campaigning
+
+How political parties use data and online advertising, and whether they reach the audiences they intend to reach. This work draws on ad archives and survey data.
+
+Democracy and technology
+
+What democratic theory, and agonistic democracy in particular, can tell us about conflict and disagreement over digital technologies. This was the focus of my doctoral research.
+
+Projects
+
+- AITSec : stakeholder deliberation on the social purpose of artificial intelligence in the UK, co-convened at the Centre for Digital Trust and Society, University of Manchester.
